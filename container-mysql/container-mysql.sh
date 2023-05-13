@@ -1,6 +1,6 @@
-sudo docker rm --force ContainerBD
 sudo apt update && sudo apt upgrade
 sudo apt install docker.io
+sudo docker rm --force ContainerBD
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo docker pull mysql:5.7
